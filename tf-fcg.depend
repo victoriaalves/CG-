@@ -1,0 +1,5662 @@
+# depslib dependency file v1.0
+1497385932 source:c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\src\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<dlfcn.h>
+
+1499642182 
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glad\glad.h
+	<windows.h>
+	<stddef.h>
+	<KHR/khrplatform.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1499603106 h>
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\khr\khrplatform.h
+	<sys/cdefs.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1498445860 source:c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\src\main.cpp
+	<cstdio>
+	<cstdlib>
+	<map>
+	<stack>
+	<string>
+	<vector>
+	<limits>
+	<fstream>
+	<sstream>
+	<stdexcept>
+	<algorithm>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<tiny_obj_loader.h>
+	<stb_image.h>
+	"utils.h"
+	"matrices.h"
+
+1499650152 h"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1499603106 pe_mat4x4.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1499603106 x4.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1499603106 pe_mat.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1499603106 latform.h"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1499603106 .h>
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1499649952 "
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1499603106 hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\precision.hpp
+	"setup.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1499603106 .hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1499603106 .inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\_swizzle.hpp
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\_swizzle_func.hpp
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1499603106 _simd.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec4_simd.inl
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1499603106 x4_simd.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1499603106 ix.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1499603106 pe_vec2.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec2.inl
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1499603106 pe_vec3.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec3.inl
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1499603106 pe_vec4.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1499603106 pe_mat2x2.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1499603106 x2.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1499603106 ix.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1499603106 pe_mat2x3.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1499603106 x3.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat2x3.inl
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1499603106 pe_mat2x4.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat2x4.inl
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1499603106 pe_mat3x2.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat3x2.inl
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1499603106 pe_mat3x3.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1499603106 pe_mat3x4.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat3x4.inl
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1499603106 pe_mat4x2.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat4x2.inl
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1499603106 pe_mat4x3.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat4x3.inl
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1499603106 ix_simd.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1499603106 nc_geometric.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1499603106 etric.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1499603106 etric_simd.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1499603106 nential.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec1.inl
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1499603106 nential_simd.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1499603106 or_relational.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1499603106 or_relational_simd.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_vector_relational_simd.inl
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1499603106 xponential.h"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\simd\exponential.h
+	"platform.h"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1499603106 on.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1499603106 on_simd.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\simd\common.h
+	"platform.h"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1499603106 eometric.h"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\simd\geometric.h
+	"common.h"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1499603106 atrix.h"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\simd\matrix.h
+	"geometric.h"
+
+1499652652 .h"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat4x4_simd.inl
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1499603106 inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1499603106 n.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\gtc\constants.inl
+	<limits>
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1499603106 n_simd.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1499603106 nc_trigonometric.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1499603106 onometric.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1499603106 onometric_simd.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_trigonometric_simd.inl
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1499603106 nc_exponential.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\gtc\quaternion_simd.inl
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\tiny_obj_loader.h
+	<map>
+	<string>
+	<vector>
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<utility>
+	<fstream>
+	<sstream>
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\utils.h
+	<cstdio>
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\matrices.h
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1499603106 atrix_transform.hpp>
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1499603106 ansform.inl"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1499603106 nc_matrix.hpp"
+
+1497385932 source:c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\src\stb_image.cpp
+	"stb_image.h"
+
+1497385932 source:c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\src\textrendering.cpp
+	<string>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	"utils.h"
+	"dejavufont.h"
+
+1499603106 t.h"
+
+1497385932 c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\dejavufont.h
+	<stddef.h>
+	<stdint.h>
+
+1497385932 source:c:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\src\tiny_obj_loader.cpp
+	"tiny_obj_loader.h"
+
+1499603106 loader.h"
+
+1497385932 source:d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\src\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<dlfcn.h>
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glad\glad.h
+	<windows.h>
+	<stddef.h>
+	<KHR/khrplatform.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\khr\khrplatform.h
+	<sys/cdefs.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1498447129 source:d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\src\main.cpp
+	<cstdio>
+	<cstdlib>
+	<map>
+	<stack>
+	<string>
+	<vector>
+	<limits>
+	<fstream>
+	<sstream>
+	<stdexcept>
+	<algorithm>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<tiny_obj_loader.h>
+	<stb_image.h>
+	"utils.h"
+	"matrices.h"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\precision.hpp
+	"setup.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\_swizzle.hpp
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\_swizzle_func.hpp
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec4_simd.inl
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec2.inl
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec3.inl
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat2x3.inl
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat2x4.inl
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat3x2.inl
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat3x4.inl
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat4x2.inl
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat4x3.inl
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_vec1.inl
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_vector_relational_simd.inl
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\simd\exponential.h
+	"platform.h"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\simd\common.h
+	"platform.h"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\simd\geometric.h
+	"common.h"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\simd\matrix.h
+	"geometric.h"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\type_mat4x4_simd.inl
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\gtc\constants.inl
+	<limits>
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\detail\func_trigonometric_simd.inl
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\gtc\quaternion_simd.inl
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\tiny_obj_loader.h
+	<map>
+	<string>
+	<vector>
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<utility>
+	<fstream>
+	<sstream>
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\utils.h
+	<cstdio>
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\matrices.h
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1497385932 source:d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\src\stb_image.cpp
+	"stb_image.h"
+
+1497385932 source:d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\src\textrendering.cpp
+	<string>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	"utils.h"
+	"dejavufont.h"
+
+1497385932 d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\include\dejavufont.h
+	<stddef.h>
+	<stdint.h>
+
+1497385932 source:d:\users\leonardo\documents\cic\fcg\trab\laboratorio_05_codigo_fonte\src\tiny_obj_loader.cpp
+	"tiny_obj_loader.h"
+
+1499603106 source:d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\src\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<dlfcn.h>
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glad\glad.h
+	<windows.h>
+	<stddef.h>
+	<KHR/khrplatform.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\khr\khrplatform.h
+	<sys/cdefs.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1499649826 source:d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\src\main.cpp
+	"callbacks.h"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\precision.hpp
+	"setup.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\_swizzle.hpp
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\_swizzle_func.hpp
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_vec4_simd.inl
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_vec2.inl
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_vec3.inl
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat2x3.inl
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat2x4.inl
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat3x2.inl
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat3x4.inl
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat4x2.inl
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat4x3.inl
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_vec1.inl
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\func_vector_relational_simd.inl
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\simd\exponential.h
+	"platform.h"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\simd\common.h
+	"platform.h"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\simd\geometric.h
+	"common.h"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\simd\matrix.h
+	"geometric.h"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\type_mat4x4_simd.inl
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\gtc\constants.inl
+	<limits>
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\detail\func_trigonometric_simd.inl
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\gtc\quaternion_simd.inl
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\tiny_obj_loader.h
+	<map>
+	<string>
+	<vector>
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<utility>
+	<fstream>
+	<sstream>
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\utils.h
+	<cstdio>
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\matrices.h
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1499603106 source:d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\src\stb_image.cpp
+	"stb_image.h"
+
+1499603106 source:d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\src\textrendering.cpp
+	<string>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	"utils.h"
+	"dejavufont.h"
+
+1499603106 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\dejavufont.h
+	<stddef.h>
+	<stdint.h>
+
+1499603106 source:d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\src\tiny_obj_loader.cpp
+	"tiny_obj_loader.h"
+
+1499538471 source:c:\users\isadora\fcg\trab_fcg\src\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<dlfcn.h>
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glad\glad.h
+	<windows.h>
+	<stddef.h>
+	<KHR/khrplatform.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\khr\khrplatform.h
+	<sys/cdefs.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1499538471 source:c:\users\isadora\fcg\trab_fcg\src\stb_image.cpp
+	"stb_image.h"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1499538471 source:c:\users\isadora\fcg\trab_fcg\src\textrendering.cpp
+	<string>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	"utils.h"
+	"dejavufont.h"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\precision.hpp
+	"setup.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\_swizzle.hpp
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\_swizzle_func.hpp
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_vec4_simd.inl
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_vec2.inl
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_vec3.inl
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat2x3.inl
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat2x4.inl
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat3x2.inl
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat3x4.inl
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat4x2.inl
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat4x3.inl
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_vec1.inl
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\func_vector_relational_simd.inl
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\simd\exponential.h
+	"platform.h"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\simd\common.h
+	"platform.h"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\simd\geometric.h
+	"common.h"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\simd\matrix.h
+	"geometric.h"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\type_mat4x4_simd.inl
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\utils.h
+	<cstdio>
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\dejavufont.h
+	<stddef.h>
+	<stdint.h>
+
+1499538471 source:c:\users\isadora\fcg\trab_fcg\src\tiny_obj_loader.cpp
+	"tiny_obj_loader.h"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\tiny_obj_loader.h
+	<map>
+	<string>
+	<vector>
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<utility>
+	<fstream>
+	<sstream>
+
+1499549111 source:c:\users\isadora\fcg\trab_fcg\src\main.cpp
+	<cstdio>
+	<cstdlib>
+	<map>
+	<stack>
+	<string>
+	<vector>
+	<limits>
+	<fstream>
+	<sstream>
+	<stdexcept>
+	<algorithm>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<tiny_obj_loader.h>
+	<stb_image.h>
+	"utils.h"
+	"matrices.h"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\gtc\constants.inl
+	<limits>
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\detail\func_trigonometric_simd.inl
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\gtc\quaternion_simd.inl
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\matrices.h
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1499538471 c:\users\isadora\fcg\trab_fcg\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1499603106 source:c:\users\isadora\fcg\trab_fcg\trab_fcg\src\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<dlfcn.h>
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glad\glad.h
+	<windows.h>
+	<stddef.h>
+	<KHR/khrplatform.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\khr\khrplatform.h
+	<sys/cdefs.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1499603106 source:c:\users\isadora\fcg\trab_fcg\trab_fcg\src\stb_image.cpp
+	"stb_image.h"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1499603106 source:c:\users\isadora\fcg\trab_fcg\trab_fcg\src\textrendering.cpp
+	<string>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	"utils.h"
+	"dejavufont.h"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\precision.hpp
+	"setup.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\_swizzle.hpp
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\_swizzle_func.hpp
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_vec4_simd.inl
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_vec2.inl
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_vec3.inl
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat2x3.inl
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat2x4.inl
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat3x2.inl
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat3x4.inl
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat4x2.inl
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat4x3.inl
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_vec1.inl
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\func_vector_relational_simd.inl
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\simd\exponential.h
+	"platform.h"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\simd\common.h
+	"platform.h"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\simd\geometric.h
+	"common.h"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\simd\matrix.h
+	"geometric.h"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\type_mat4x4_simd.inl
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\utils.h
+	<cstdio>
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\dejavufont.h
+	<stddef.h>
+	<stdint.h>
+
+1499603106 source:c:\users\isadora\fcg\trab_fcg\trab_fcg\src\tiny_obj_loader.cpp
+	"tiny_obj_loader.h"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\tiny_obj_loader.h
+	<map>
+	<string>
+	<vector>
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<utility>
+	<fstream>
+	<sstream>
+
+1499652652 source:c:\users\isadora\fcg\trab_fcg\trab_fcg\src\main.cpp
+	"callbacks.h"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\gtc\constants.inl
+	<limits>
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\detail\func_trigonometric_simd.inl
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\gtc\quaternion_simd.inl
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\matrices.h
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1499603106 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1499650640 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\callbacks.h
+	"game.h"
+
+1499650640 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\game.h
+	"others.h"
+
+1499650640 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\others.h
+	"textrendering.h"
+
+1499641399 ring.h"
+
+1499652203 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\globals.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<map>
+	<stack>
+	<string>
+	<vector>
+	<limits>
+	<fstream>
+	<sstream>
+	<stdexcept>
+	<algorithm>
+	<cstdio>
+	<cstdlib>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<tiny_obj_loader.h>
+	<stb_image.h>
+	"utils.h"
+	"matrices.h"
+
+1499652332 c:\users\isadora\fcg\trab_fcg\trab_fcg\include\textrendering.h
+	"globals.h"
+
+1499641995 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\callbacks.h
+	"game.h"
+
+1499642182 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\game.h
+	"others.h"
+
+1499641399 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\others.h
+	"textrendering.h"
+
+1499649952 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\textrendering.h
+	"globals.h"
+
+1499650152 d:\users\leonardo\documents\cic\fcg\trab\trab_fcg\include\globals.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<map>
+	<stack>
+	<string>
+	<vector>
+	<limits>
+	<fstream>
+	<sstream>
+	<stdexcept>
+	<algorithm>
+	<cstdio>
+	<cstdlib>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<tiny_obj_loader.h>
+	<stb_image.h>
+	"utils.h"
+	"matrices.h"
+
+1499603106 source:/home/victoria/Downloads/ESSE/src/glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<dlfcn.h>
+
+1499603106 /home/victoria/Downloads/ESSE/include/glad/glad.h
+	<windows.h>
+	<stddef.h>
+	<KHR/khrplatform.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1499603106 /home/victoria/Downloads/ESSE/include/KHR/khrplatform.h
+	<sys/cdefs.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1529074840 source:/home/victoria/Downloads/ESSE/src/main.cpp
+	"callbacks.h"
+
+1499650640 /home/victoria/Downloads/ESSE/include/callbacks.h
+	"game.h"
+
+1499650640 /home/victoria/Downloads/ESSE/include/game.h
+	"others.h"
+
+1499650640 /home/victoria/Downloads/ESSE/include/others.h
+	"textrendering.h"
+
+1499652332 /home/victoria/Downloads/ESSE/include/textrendering.h
+	"globals.h"
+
+1499652203 /home/victoria/Downloads/ESSE/include/globals.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<map>
+	<stack>
+	<string>
+	<vector>
+	<limits>
+	<fstream>
+	<sstream>
+	<stdexcept>
+	<algorithm>
+	<cstdio>
+	<cstdlib>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<tiny_obj_loader.h>
+	<stb_image.h>
+	"utils.h"
+	"matrices.h"
+
+1499603106 /home/victoria/Downloads/ESSE/include/GLFW/glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/simd/platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_float.hpp
+	"setup.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/precision.hpp
+	"setup.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat.hpp
+	"precision.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/_swizzle.hpp
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/_swizzle_func.hpp
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_vec4.inl
+	"type_vec4_simd.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_vec4_simd.inl
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/vec2.hpp
+	"detail/type_vec2.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_vec2.inl
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/vec3.hpp
+	"detail/type_vec3.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_vec3.inl
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/vec4.hpp
+	"detail/type_vec4.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat2x2.inl
+	"func_matrix.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat2x3.inl
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat2x4.inl
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat3x2.inl
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat3x3.inl
+	"func_matrix.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat3x4.inl
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat4x2.inl
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat4x3.inl
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/geometric.hpp
+	"detail/func_geometric.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_vec1.inl
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/func_vector_relational_simd.inl
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/simd/exponential.h
+	"platform.h"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/_fixes.hpp
+	<cmath>
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/simd/common.h
+	"platform.h"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/simd/geometric.h
+	"common.h"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/simd/matrix.h
+	"geometric.h"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/type_mat4x4_simd.inl
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/gtc/type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/gtc/quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/gtc/constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/gtc/constants.inl
+	<limits>
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/gtc/quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/detail/func_trigonometric_simd.inl
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/exponential.hpp
+	"detail/func_exponential.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/gtc/quaternion_simd.inl
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/gtc/type_ptr.inl
+	<cstring>
+
+1499603106 /home/victoria/Downloads/ESSE/include/tiny_obj_loader.h
+	<map>
+	<string>
+	<vector>
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<utility>
+	<fstream>
+	<sstream>
+
+1499603106 /home/victoria/Downloads/ESSE/include/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1499603106 /home/victoria/Downloads/ESSE/include/utils.h
+	<cstdio>
+
+1499603106 /home/victoria/Downloads/ESSE/include/matrices.h
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/gtc/matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/gtc/matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1499603106 /home/victoria/Downloads/ESSE/include/glm/matrix.hpp
+	"detail/func_matrix.hpp"
+
+1499603106 source:/home/victoria/Downloads/ESSE/src/stb_image.cpp
+	"stb_image.h"
+
+1499603106 source:/home/victoria/Downloads/ESSE/src/textrendering.cpp
+	<string>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	"utils.h"
+	"dejavufont.h"
+
+1499603106 /home/victoria/Downloads/ESSE/include/dejavufont.h
+	<stddef.h>
+	<stdint.h>
+
+1499603106 source:/home/victoria/Downloads/ESSE/src/tiny_obj_loader.cpp
+	"tiny_obj_loader.h"
+
+1529062490 source:/home/victoria/Desktop/ESSE/src/glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<dlfcn.h>
+
+1529062494 /home/victoria/Desktop/ESSE/include/glad/glad.h
+	<windows.h>
+	<stddef.h>
+	<KHR/khrplatform.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1529062500 /home/victoria/Desktop/ESSE/include/KHR/khrplatform.h
+	<sys/cdefs.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1529079680 source:/home/victoria/Desktop/ESSE/src/main.cpp
+	"callbacks.h"
+
+1529062492 /home/victoria/Desktop/ESSE/include/callbacks.h
+	"game.h"
+
+1529079943 /home/victoria/Desktop/ESSE/include/game.h
+	"others.h"
+
+1529062492 /home/victoria/Desktop/ESSE/include/others.h
+	"textrendering.h"
+
+1529080142 /home/victoria/Desktop/ESSE/include/textrendering.h
+	"globals.h"
+
+1529080116 /home/victoria/Desktop/ESSE/include/globals.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<map>
+	<stack>
+	<string>
+	<vector>
+	<limits>
+	<fstream>
+	<sstream>
+	<stdexcept>
+	<algorithm>
+	<cstdio>
+	<cstdlib>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<tiny_obj_loader.h>
+	<stb_image.h>
+	"utils.h"
+	"matrices.h"
+
+1529062494 /home/victoria/Desktop/ESSE/include/GLFW/glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1529062496 /home/victoria/Desktop/ESSE/include/glm/mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1529062546 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1529062496 /home/victoria/Desktop/ESSE/include/glm/fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1529062536 /home/victoria/Desktop/ESSE/include/glm/detail/type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1529062544 /home/victoria/Desktop/ESSE/include/glm/detail/setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1529062550 /home/victoria/Desktop/ESSE/include/glm/simd/platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1529062544 /home/victoria/Desktop/ESSE/include/glm/detail/type_float.hpp
+	"setup.hpp"
+
+1529062534 /home/victoria/Desktop/ESSE/include/glm/detail/type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1529062540 /home/victoria/Desktop/ESSE/include/glm/detail/precision.hpp
+	"setup.hpp"
+
+1529062540 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat.hpp
+	"precision.hpp"
+
+1529062550 /home/victoria/Desktop/ESSE/include/glm/detail/type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1529062544 /home/victoria/Desktop/ESSE/include/glm/detail/_swizzle.hpp
+
+1529062552 /home/victoria/Desktop/ESSE/include/glm/detail/_swizzle_func.hpp
+
+1529062540 /home/victoria/Desktop/ESSE/include/glm/detail/type_vec4.inl
+	"type_vec4_simd.inl"
+
+1529062534 /home/victoria/Desktop/ESSE/include/glm/detail/type_vec4_simd.inl
+
+1529062544 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1529062544 /home/victoria/Desktop/ESSE/include/glm/detail/func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1529062500 /home/victoria/Desktop/ESSE/include/glm/vec2.hpp
+	"detail/type_vec2.hpp"
+
+1529062546 /home/victoria/Desktop/ESSE/include/glm/detail/type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1529062548 /home/victoria/Desktop/ESSE/include/glm/detail/type_vec2.inl
+
+1529062496 /home/victoria/Desktop/ESSE/include/glm/vec3.hpp
+	"detail/type_vec3.hpp"
+
+1529062538 /home/victoria/Desktop/ESSE/include/glm/detail/type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1529062542 /home/victoria/Desktop/ESSE/include/glm/detail/type_vec3.inl
+
+1529062498 /home/victoria/Desktop/ESSE/include/glm/vec4.hpp
+	"detail/type_vec4.hpp"
+
+1529062494 /home/victoria/Desktop/ESSE/include/glm/mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1529062536 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1529062536 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat2x2.inl
+	"func_matrix.hpp"
+
+1529062498 /home/victoria/Desktop/ESSE/include/glm/mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1529062534 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1529062532 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat2x3.inl
+
+1529062500 /home/victoria/Desktop/ESSE/include/glm/mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1529062550 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1529062534 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat2x4.inl
+
+1529062496 /home/victoria/Desktop/ESSE/include/glm/mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1529062540 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1529062536 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat3x2.inl
+
+1529062500 /home/victoria/Desktop/ESSE/include/glm/mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1529062534 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1529062536 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat3x3.inl
+	"func_matrix.hpp"
+
+1529062494 /home/victoria/Desktop/ESSE/include/glm/mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1529062544 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1529062540 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat3x4.inl
+
+1529062496 /home/victoria/Desktop/ESSE/include/glm/mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1529062538 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1529062548 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat4x2.inl
+
+1529062498 /home/victoria/Desktop/ESSE/include/glm/mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1529062548 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1529062548 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat4x3.inl
+
+1529062534 /home/victoria/Desktop/ESSE/include/glm/detail/func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1529062496 /home/victoria/Desktop/ESSE/include/glm/geometric.hpp
+	"detail/func_geometric.hpp"
+
+1529062544 /home/victoria/Desktop/ESSE/include/glm/detail/func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1529062534 /home/victoria/Desktop/ESSE/include/glm/detail/func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1529062532 /home/victoria/Desktop/ESSE/include/glm/detail/func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1529062532 /home/victoria/Desktop/ESSE/include/glm/detail/type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1529062536 /home/victoria/Desktop/ESSE/include/glm/detail/type_vec1.inl
+
+1529062540 /home/victoria/Desktop/ESSE/include/glm/detail/func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1529062552 /home/victoria/Desktop/ESSE/include/glm/detail/func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1529062548 /home/victoria/Desktop/ESSE/include/glm/detail/func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1529062538 /home/victoria/Desktop/ESSE/include/glm/detail/func_vector_relational_simd.inl
+
+1529062550 /home/victoria/Desktop/ESSE/include/glm/detail/_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1529062534 /home/victoria/Desktop/ESSE/include/glm/detail/func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1529062550 /home/victoria/Desktop/ESSE/include/glm/simd/exponential.h
+	"platform.h"
+
+1529062548 /home/victoria/Desktop/ESSE/include/glm/detail/func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1529062544 /home/victoria/Desktop/ESSE/include/glm/detail/_fixes.hpp
+	<cmath>
+
+1529062538 /home/victoria/Desktop/ESSE/include/glm/detail/func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1529062546 /home/victoria/Desktop/ESSE/include/glm/detail/func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1529062552 /home/victoria/Desktop/ESSE/include/glm/simd/common.h
+	"platform.h"
+
+1529062534 /home/victoria/Desktop/ESSE/include/glm/detail/func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1529062552 /home/victoria/Desktop/ESSE/include/glm/simd/geometric.h
+	"common.h"
+
+1529062536 /home/victoria/Desktop/ESSE/include/glm/detail/func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1529062554 /home/victoria/Desktop/ESSE/include/glm/simd/matrix.h
+	"geometric.h"
+
+1529062552 /home/victoria/Desktop/ESSE/include/glm/detail/type_mat4x4_simd.inl
+
+1529062554 /home/victoria/Desktop/ESSE/include/glm/gtc/type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1529062560 /home/victoria/Desktop/ESSE/include/glm/gtc/quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1529062564 /home/victoria/Desktop/ESSE/include/glm/gtc/constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1529062556 /home/victoria/Desktop/ESSE/include/glm/gtc/constants.inl
+	<limits>
+
+1529062558 /home/victoria/Desktop/ESSE/include/glm/gtc/quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1529062498 /home/victoria/Desktop/ESSE/include/glm/trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1529062546 /home/victoria/Desktop/ESSE/include/glm/detail/func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1529062534 /home/victoria/Desktop/ESSE/include/glm/detail/func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1529062538 /home/victoria/Desktop/ESSE/include/glm/detail/func_trigonometric_simd.inl
+
+1529062500 /home/victoria/Desktop/ESSE/include/glm/exponential.hpp
+	"detail/func_exponential.hpp"
+
+1529062554 /home/victoria/Desktop/ESSE/include/glm/gtc/quaternion_simd.inl
+
+1529062558 /home/victoria/Desktop/ESSE/include/glm/gtc/type_ptr.inl
+	<cstring>
+
+1529062492 /home/victoria/Desktop/ESSE/include/tiny_obj_loader.h
+	<map>
+	<string>
+	<vector>
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<utility>
+	<fstream>
+	<sstream>
+
+1529062492 /home/victoria/Desktop/ESSE/include/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1529062494 /home/victoria/Desktop/ESSE/include/utils.h
+	<cstdio>
+
+1529062492 /home/victoria/Desktop/ESSE/include/matrices.h
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1529062560 /home/victoria/Desktop/ESSE/include/glm/gtc/matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1529062562 /home/victoria/Desktop/ESSE/include/glm/gtc/matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1529062496 /home/victoria/Desktop/ESSE/include/glm/matrix.hpp
+	"detail/func_matrix.hpp"
+
+1529062490 source:/home/victoria/Desktop/ESSE/src/stb_image.cpp
+	"stb_image.h"
+
+1529062490 source:/home/victoria/Desktop/ESSE/src/textrendering.cpp
+	<string>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	"utils.h"
+	"dejavufont.h"
+
+1529062494 /home/victoria/Desktop/ESSE/include/dejavufont.h
+	<stddef.h>
+	<stdint.h>
+
+1529062490 source:/home/victoria/Desktop/ESSE/src/tiny_obj_loader.cpp
+	"tiny_obj_loader.h"
+
+1529062490 source:/home/victoria/tf-fcg/src/glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<dlfcn.h>
+
+1529062494 /home/victoria/tf-fcg/include/glad/glad.h
+	<windows.h>
+	<stddef.h>
+	<KHR/khrplatform.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1529062500 /home/victoria/tf-fcg/include/KHR/khrplatform.h
+	<sys/cdefs.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1529272162 source:/home/victoria/tf-fcg/src/main.cpp
+	"callbacks.h"
+	<time.h>
+
+1529275072 /home/victoria/tf-fcg/include/callbacks.h
+	"game.h"
+
+1529275758 /home/victoria/tf-fcg/include/game.h
+	"others.h"
+	<stdlib.h>
+
+1529270187 /home/victoria/tf-fcg/include/others.h
+	"textrendering.h"
+
+1529272313 /home/victoria/tf-fcg/include/textrendering.h
+	"globals.h"
+
+1529272831 /home/victoria/tf-fcg/include/globals.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<map>
+	<stack>
+	<string>
+	<vector>
+	<limits>
+	<fstream>
+	<sstream>
+	<stdexcept>
+	<algorithm>
+	<cstdio>
+	<cstdlib>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<tiny_obj_loader.h>
+	<stb_image.h>
+	"utils.h"
+	"matrices.h"
+
+1529062494 /home/victoria/tf-fcg/include/GLFW/glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1529062496 /home/victoria/tf-fcg/include/glm/mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1529062546 /home/victoria/tf-fcg/include/glm/detail/type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1529062496 /home/victoria/tf-fcg/include/glm/fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1529062536 /home/victoria/tf-fcg/include/glm/detail/type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1529062544 /home/victoria/tf-fcg/include/glm/detail/setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1529062550 /home/victoria/tf-fcg/include/glm/simd/platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1529062544 /home/victoria/tf-fcg/include/glm/detail/type_float.hpp
+	"setup.hpp"
+
+1529062534 /home/victoria/tf-fcg/include/glm/detail/type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1529062540 /home/victoria/tf-fcg/include/glm/detail/precision.hpp
+	"setup.hpp"
+
+1529062540 /home/victoria/tf-fcg/include/glm/detail/type_mat.hpp
+	"precision.hpp"
+
+1529062550 /home/victoria/tf-fcg/include/glm/detail/type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1529062544 /home/victoria/tf-fcg/include/glm/detail/_swizzle.hpp
+
+1529062552 /home/victoria/tf-fcg/include/glm/detail/_swizzle_func.hpp
+
+1529062540 /home/victoria/tf-fcg/include/glm/detail/type_vec4.inl
+	"type_vec4_simd.inl"
+
+1529062534 /home/victoria/tf-fcg/include/glm/detail/type_vec4_simd.inl
+
+1529062544 /home/victoria/tf-fcg/include/glm/detail/type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1529062544 /home/victoria/tf-fcg/include/glm/detail/func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1529062500 /home/victoria/tf-fcg/include/glm/vec2.hpp
+	"detail/type_vec2.hpp"
+
+1529062546 /home/victoria/tf-fcg/include/glm/detail/type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1529062548 /home/victoria/tf-fcg/include/glm/detail/type_vec2.inl
+
+1529062496 /home/victoria/tf-fcg/include/glm/vec3.hpp
+	"detail/type_vec3.hpp"
+
+1529062538 /home/victoria/tf-fcg/include/glm/detail/type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1529062542 /home/victoria/tf-fcg/include/glm/detail/type_vec3.inl
+
+1529062498 /home/victoria/tf-fcg/include/glm/vec4.hpp
+	"detail/type_vec4.hpp"
+
+1529062494 /home/victoria/tf-fcg/include/glm/mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1529062536 /home/victoria/tf-fcg/include/glm/detail/type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1529062536 /home/victoria/tf-fcg/include/glm/detail/type_mat2x2.inl
+	"func_matrix.hpp"
+
+1529062498 /home/victoria/tf-fcg/include/glm/mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1529062534 /home/victoria/tf-fcg/include/glm/detail/type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1529062532 /home/victoria/tf-fcg/include/glm/detail/type_mat2x3.inl
+
+1529062500 /home/victoria/tf-fcg/include/glm/mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1529062550 /home/victoria/tf-fcg/include/glm/detail/type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1529062534 /home/victoria/tf-fcg/include/glm/detail/type_mat2x4.inl
+
+1529062496 /home/victoria/tf-fcg/include/glm/mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1529062540 /home/victoria/tf-fcg/include/glm/detail/type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1529062536 /home/victoria/tf-fcg/include/glm/detail/type_mat3x2.inl
+
+1529062500 /home/victoria/tf-fcg/include/glm/mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1529062534 /home/victoria/tf-fcg/include/glm/detail/type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1529062536 /home/victoria/tf-fcg/include/glm/detail/type_mat3x3.inl
+	"func_matrix.hpp"
+
+1529062494 /home/victoria/tf-fcg/include/glm/mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1529062544 /home/victoria/tf-fcg/include/glm/detail/type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1529062540 /home/victoria/tf-fcg/include/glm/detail/type_mat3x4.inl
+
+1529062496 /home/victoria/tf-fcg/include/glm/mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1529062538 /home/victoria/tf-fcg/include/glm/detail/type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1529062548 /home/victoria/tf-fcg/include/glm/detail/type_mat4x2.inl
+
+1529062498 /home/victoria/tf-fcg/include/glm/mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1529062548 /home/victoria/tf-fcg/include/glm/detail/type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1529062548 /home/victoria/tf-fcg/include/glm/detail/type_mat4x3.inl
+
+1529062534 /home/victoria/tf-fcg/include/glm/detail/func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1529062496 /home/victoria/tf-fcg/include/glm/geometric.hpp
+	"detail/func_geometric.hpp"
+
+1529062544 /home/victoria/tf-fcg/include/glm/detail/func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1529062534 /home/victoria/tf-fcg/include/glm/detail/func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1529062532 /home/victoria/tf-fcg/include/glm/detail/func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1529062532 /home/victoria/tf-fcg/include/glm/detail/type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1529062536 /home/victoria/tf-fcg/include/glm/detail/type_vec1.inl
+
+1529062540 /home/victoria/tf-fcg/include/glm/detail/func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1529062552 /home/victoria/tf-fcg/include/glm/detail/func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1529062548 /home/victoria/tf-fcg/include/glm/detail/func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1529062538 /home/victoria/tf-fcg/include/glm/detail/func_vector_relational_simd.inl
+
+1529062550 /home/victoria/tf-fcg/include/glm/detail/_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1529062534 /home/victoria/tf-fcg/include/glm/detail/func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1529062550 /home/victoria/tf-fcg/include/glm/simd/exponential.h
+	"platform.h"
+
+1529062548 /home/victoria/tf-fcg/include/glm/detail/func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1529062544 /home/victoria/tf-fcg/include/glm/detail/_fixes.hpp
+	<cmath>
+
+1529062538 /home/victoria/tf-fcg/include/glm/detail/func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1529062546 /home/victoria/tf-fcg/include/glm/detail/func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1529062552 /home/victoria/tf-fcg/include/glm/simd/common.h
+	"platform.h"
+
+1529062534 /home/victoria/tf-fcg/include/glm/detail/func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1529062552 /home/victoria/tf-fcg/include/glm/simd/geometric.h
+	"common.h"
+
+1529062536 /home/victoria/tf-fcg/include/glm/detail/func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1529062554 /home/victoria/tf-fcg/include/glm/simd/matrix.h
+	"geometric.h"
+
+1529062552 /home/victoria/tf-fcg/include/glm/detail/type_mat4x4_simd.inl
+
+1529062554 /home/victoria/tf-fcg/include/glm/gtc/type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1529062560 /home/victoria/tf-fcg/include/glm/gtc/quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1529062564 /home/victoria/tf-fcg/include/glm/gtc/constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1529062556 /home/victoria/tf-fcg/include/glm/gtc/constants.inl
+	<limits>
+
+1529062558 /home/victoria/tf-fcg/include/glm/gtc/quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1529062498 /home/victoria/tf-fcg/include/glm/trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1529062546 /home/victoria/tf-fcg/include/glm/detail/func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1529062534 /home/victoria/tf-fcg/include/glm/detail/func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1529062538 /home/victoria/tf-fcg/include/glm/detail/func_trigonometric_simd.inl
+
+1529062500 /home/victoria/tf-fcg/include/glm/exponential.hpp
+	"detail/func_exponential.hpp"
+
+1529062554 /home/victoria/tf-fcg/include/glm/gtc/quaternion_simd.inl
+
+1529062558 /home/victoria/tf-fcg/include/glm/gtc/type_ptr.inl
+	<cstring>
+
+1529062492 /home/victoria/tf-fcg/include/tiny_obj_loader.h
+	<map>
+	<string>
+	<vector>
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<utility>
+	<fstream>
+	<sstream>
+
+1529062492 /home/victoria/tf-fcg/include/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1529062494 /home/victoria/tf-fcg/include/utils.h
+	<cstdio>
+
+1529062492 /home/victoria/tf-fcg/include/matrices.h
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1529062560 /home/victoria/tf-fcg/include/glm/gtc/matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1529062562 /home/victoria/tf-fcg/include/glm/gtc/matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1529062496 /home/victoria/tf-fcg/include/glm/matrix.hpp
+	"detail/func_matrix.hpp"
+
+1529062490 source:/home/victoria/tf-fcg/src/stb_image.cpp
+	"stb_image.h"
+
+1529253816 source:/home/victoria/tf-fcg/src/textrendering.cpp
+	<string>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	"utils.h"
+	"dejavufont.h"
+
+1529062494 /home/victoria/tf-fcg/include/dejavufont.h
+	<stddef.h>
+	<stdint.h>
+
+1529062490 source:/home/victoria/tf-fcg/src/tiny_obj_loader.cpp
+	"tiny_obj_loader.h"
+
+1529062490 source:/home/victoria/backup_fcg/src/glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<dlfcn.h>
+
+1529062494 /home/victoria/backup_fcg/include/glad/glad.h
+	<windows.h>
+	<stddef.h>
+	<KHR/khrplatform.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1529062500 /home/victoria/backup_fcg/include/KHR/khrplatform.h
+	<sys/cdefs.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1529084181 source:/home/victoria/backup_fcg/src/main.cpp
+	"callbacks.h"
+
+1529084173 /home/victoria/backup_fcg/include/callbacks.h
+	"game.h"
+
+1529084052 /home/victoria/backup_fcg/include/game.h
+	"others.h"
+
+1529084053 /home/victoria/backup_fcg/include/others.h
+	"textrendering.h"
+
+1529084152 /home/victoria/backup_fcg/include/textrendering.h
+	"globals.h"
+
+1529084341 /home/victoria/backup_fcg/include/globals.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<map>
+	<stack>
+	<string>
+	<vector>
+	<limits>
+	<fstream>
+	<sstream>
+	<stdexcept>
+	<algorithm>
+	<cstdio>
+	<cstdlib>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<tiny_obj_loader.h>
+	<stb_image.h>
+	"utils.h"
+	"matrices.h"
+
+1529062494 /home/victoria/backup_fcg/include/GLFW/glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1529062496 /home/victoria/backup_fcg/include/glm/mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1529062546 /home/victoria/backup_fcg/include/glm/detail/type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1529062496 /home/victoria/backup_fcg/include/glm/fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1529062536 /home/victoria/backup_fcg/include/glm/detail/type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1529062544 /home/victoria/backup_fcg/include/glm/detail/setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1529062550 /home/victoria/backup_fcg/include/glm/simd/platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1529062544 /home/victoria/backup_fcg/include/glm/detail/type_float.hpp
+	"setup.hpp"
+
+1529062534 /home/victoria/backup_fcg/include/glm/detail/type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1529062540 /home/victoria/backup_fcg/include/glm/detail/precision.hpp
+	"setup.hpp"
+
+1529062540 /home/victoria/backup_fcg/include/glm/detail/type_mat.hpp
+	"precision.hpp"
+
+1529062550 /home/victoria/backup_fcg/include/glm/detail/type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1529062544 /home/victoria/backup_fcg/include/glm/detail/_swizzle.hpp
+
+1529062552 /home/victoria/backup_fcg/include/glm/detail/_swizzle_func.hpp
+
+1529062540 /home/victoria/backup_fcg/include/glm/detail/type_vec4.inl
+	"type_vec4_simd.inl"
+
+1529062534 /home/victoria/backup_fcg/include/glm/detail/type_vec4_simd.inl
+
+1529062544 /home/victoria/backup_fcg/include/glm/detail/type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1529062544 /home/victoria/backup_fcg/include/glm/detail/func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1529062500 /home/victoria/backup_fcg/include/glm/vec2.hpp
+	"detail/type_vec2.hpp"
+
+1529062546 /home/victoria/backup_fcg/include/glm/detail/type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1529062548 /home/victoria/backup_fcg/include/glm/detail/type_vec2.inl
+
+1529062496 /home/victoria/backup_fcg/include/glm/vec3.hpp
+	"detail/type_vec3.hpp"
+
+1529062538 /home/victoria/backup_fcg/include/glm/detail/type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1529062542 /home/victoria/backup_fcg/include/glm/detail/type_vec3.inl
+
+1529062498 /home/victoria/backup_fcg/include/glm/vec4.hpp
+	"detail/type_vec4.hpp"
+
+1529062494 /home/victoria/backup_fcg/include/glm/mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1529062536 /home/victoria/backup_fcg/include/glm/detail/type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1529062536 /home/victoria/backup_fcg/include/glm/detail/type_mat2x2.inl
+	"func_matrix.hpp"
+
+1529062498 /home/victoria/backup_fcg/include/glm/mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1529062534 /home/victoria/backup_fcg/include/glm/detail/type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1529062532 /home/victoria/backup_fcg/include/glm/detail/type_mat2x3.inl
+
+1529062500 /home/victoria/backup_fcg/include/glm/mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1529062550 /home/victoria/backup_fcg/include/glm/detail/type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1529062534 /home/victoria/backup_fcg/include/glm/detail/type_mat2x4.inl
+
+1529062496 /home/victoria/backup_fcg/include/glm/mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1529062540 /home/victoria/backup_fcg/include/glm/detail/type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1529062536 /home/victoria/backup_fcg/include/glm/detail/type_mat3x2.inl
+
+1529062500 /home/victoria/backup_fcg/include/glm/mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1529062534 /home/victoria/backup_fcg/include/glm/detail/type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1529062536 /home/victoria/backup_fcg/include/glm/detail/type_mat3x3.inl
+	"func_matrix.hpp"
+
+1529062494 /home/victoria/backup_fcg/include/glm/mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1529062544 /home/victoria/backup_fcg/include/glm/detail/type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1529062540 /home/victoria/backup_fcg/include/glm/detail/type_mat3x4.inl
+
+1529062496 /home/victoria/backup_fcg/include/glm/mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1529062538 /home/victoria/backup_fcg/include/glm/detail/type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1529062548 /home/victoria/backup_fcg/include/glm/detail/type_mat4x2.inl
+
+1529062498 /home/victoria/backup_fcg/include/glm/mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1529062548 /home/victoria/backup_fcg/include/glm/detail/type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1529062548 /home/victoria/backup_fcg/include/glm/detail/type_mat4x3.inl
+
+1529062534 /home/victoria/backup_fcg/include/glm/detail/func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1529062496 /home/victoria/backup_fcg/include/glm/geometric.hpp
+	"detail/func_geometric.hpp"
+
+1529062544 /home/victoria/backup_fcg/include/glm/detail/func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1529062534 /home/victoria/backup_fcg/include/glm/detail/func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1529062532 /home/victoria/backup_fcg/include/glm/detail/func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1529062532 /home/victoria/backup_fcg/include/glm/detail/type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1529062536 /home/victoria/backup_fcg/include/glm/detail/type_vec1.inl
+
+1529062540 /home/victoria/backup_fcg/include/glm/detail/func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1529062552 /home/victoria/backup_fcg/include/glm/detail/func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1529062548 /home/victoria/backup_fcg/include/glm/detail/func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1529062538 /home/victoria/backup_fcg/include/glm/detail/func_vector_relational_simd.inl
+
+1529062550 /home/victoria/backup_fcg/include/glm/detail/_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1529062534 /home/victoria/backup_fcg/include/glm/detail/func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1529062550 /home/victoria/backup_fcg/include/glm/simd/exponential.h
+	"platform.h"
+
+1529062548 /home/victoria/backup_fcg/include/glm/detail/func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1529062544 /home/victoria/backup_fcg/include/glm/detail/_fixes.hpp
+	<cmath>
+
+1529062538 /home/victoria/backup_fcg/include/glm/detail/func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1529062546 /home/victoria/backup_fcg/include/glm/detail/func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1529062552 /home/victoria/backup_fcg/include/glm/simd/common.h
+	"platform.h"
+
+1529062534 /home/victoria/backup_fcg/include/glm/detail/func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1529062552 /home/victoria/backup_fcg/include/glm/simd/geometric.h
+	"common.h"
+
+1529062536 /home/victoria/backup_fcg/include/glm/detail/func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1529062554 /home/victoria/backup_fcg/include/glm/simd/matrix.h
+	"geometric.h"
+
+1529062552 /home/victoria/backup_fcg/include/glm/detail/type_mat4x4_simd.inl
+
+1529062554 /home/victoria/backup_fcg/include/glm/gtc/type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1529062560 /home/victoria/backup_fcg/include/glm/gtc/quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1529062564 /home/victoria/backup_fcg/include/glm/gtc/constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1529062556 /home/victoria/backup_fcg/include/glm/gtc/constants.inl
+	<limits>
+
+1529062558 /home/victoria/backup_fcg/include/glm/gtc/quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1529062498 /home/victoria/backup_fcg/include/glm/trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1529062546 /home/victoria/backup_fcg/include/glm/detail/func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1529062534 /home/victoria/backup_fcg/include/glm/detail/func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1529062538 /home/victoria/backup_fcg/include/glm/detail/func_trigonometric_simd.inl
+
+1529062500 /home/victoria/backup_fcg/include/glm/exponential.hpp
+	"detail/func_exponential.hpp"
+
+1529062554 /home/victoria/backup_fcg/include/glm/gtc/quaternion_simd.inl
+
+1529062558 /home/victoria/backup_fcg/include/glm/gtc/type_ptr.inl
+	<cstring>
+
+1529062492 /home/victoria/backup_fcg/include/tiny_obj_loader.h
+	<map>
+	<string>
+	<vector>
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<utility>
+	<fstream>
+	<sstream>
+
+1529062492 /home/victoria/backup_fcg/include/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1529062494 /home/victoria/backup_fcg/include/utils.h
+	<cstdio>
+
+1529062492 /home/victoria/backup_fcg/include/matrices.h
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1529062560 /home/victoria/backup_fcg/include/glm/gtc/matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1529062562 /home/victoria/backup_fcg/include/glm/gtc/matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1529062496 /home/victoria/backup_fcg/include/glm/matrix.hpp
+	"detail/func_matrix.hpp"
+
+1529062490 source:/home/victoria/backup_fcg/src/stb_image.cpp
+	"stb_image.h"
+
+1529062490 source:/home/victoria/backup_fcg/src/textrendering.cpp
+	<string>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	"utils.h"
+	"dejavufont.h"
+
+1529062494 /home/victoria/backup_fcg/include/dejavufont.h
+	<stddef.h>
+	<stdint.h>
+
+1529062490 source:/home/victoria/backup_fcg/src/tiny_obj_loader.cpp
+	"tiny_obj_loader.h"
+
+1529062490 source:/home/victoria/entrega_fcg/src/glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<dlfcn.h>
+
+1529062494 /home/victoria/entrega_fcg/include/glad/glad.h
+	<windows.h>
+	<stddef.h>
+	<KHR/khrplatform.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1529062500 /home/victoria/entrega_fcg/include/KHR/khrplatform.h
+	<sys/cdefs.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1529272162 source:/home/victoria/entrega_fcg/src/main.cpp
+	"callbacks.h"
+	<time.h>
+
+1529275072 /home/victoria/entrega_fcg/include/callbacks.h
+	"game.h"
+
+1529275758 /home/victoria/entrega_fcg/include/game.h
+	"others.h"
+	<stdlib.h>
+
+1529270187 /home/victoria/entrega_fcg/include/others.h
+	"textrendering.h"
+
+1529272313 /home/victoria/entrega_fcg/include/textrendering.h
+	"globals.h"
+
+1529272831 /home/victoria/entrega_fcg/include/globals.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<map>
+	<stack>
+	<string>
+	<vector>
+	<limits>
+	<fstream>
+	<sstream>
+	<stdexcept>
+	<algorithm>
+	<cstdio>
+	<cstdlib>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<tiny_obj_loader.h>
+	<stb_image.h>
+	"utils.h"
+	"matrices.h"
+
+1529062494 /home/victoria/entrega_fcg/include/GLFW/glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1529062496 /home/victoria/entrega_fcg/include/glm/mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1529062546 /home/victoria/entrega_fcg/include/glm/detail/type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1529062496 /home/victoria/entrega_fcg/include/glm/fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1529062536 /home/victoria/entrega_fcg/include/glm/detail/type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1529062544 /home/victoria/entrega_fcg/include/glm/detail/setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1529062550 /home/victoria/entrega_fcg/include/glm/simd/platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1529062544 /home/victoria/entrega_fcg/include/glm/detail/type_float.hpp
+	"setup.hpp"
+
+1529062534 /home/victoria/entrega_fcg/include/glm/detail/type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1529062540 /home/victoria/entrega_fcg/include/glm/detail/precision.hpp
+	"setup.hpp"
+
+1529062540 /home/victoria/entrega_fcg/include/glm/detail/type_mat.hpp
+	"precision.hpp"
+
+1529062550 /home/victoria/entrega_fcg/include/glm/detail/type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1529062544 /home/victoria/entrega_fcg/include/glm/detail/_swizzle.hpp
+
+1529062552 /home/victoria/entrega_fcg/include/glm/detail/_swizzle_func.hpp
+
+1529062540 /home/victoria/entrega_fcg/include/glm/detail/type_vec4.inl
+	"type_vec4_simd.inl"
+
+1529062534 /home/victoria/entrega_fcg/include/glm/detail/type_vec4_simd.inl
+
+1529062544 /home/victoria/entrega_fcg/include/glm/detail/type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1529062544 /home/victoria/entrega_fcg/include/glm/detail/func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1529062500 /home/victoria/entrega_fcg/include/glm/vec2.hpp
+	"detail/type_vec2.hpp"
+
+1529062546 /home/victoria/entrega_fcg/include/glm/detail/type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1529062548 /home/victoria/entrega_fcg/include/glm/detail/type_vec2.inl
+
+1529062496 /home/victoria/entrega_fcg/include/glm/vec3.hpp
+	"detail/type_vec3.hpp"
+
+1529062538 /home/victoria/entrega_fcg/include/glm/detail/type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1529062542 /home/victoria/entrega_fcg/include/glm/detail/type_vec3.inl
+
+1529062498 /home/victoria/entrega_fcg/include/glm/vec4.hpp
+	"detail/type_vec4.hpp"
+
+1529062494 /home/victoria/entrega_fcg/include/glm/mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1529062536 /home/victoria/entrega_fcg/include/glm/detail/type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1529062536 /home/victoria/entrega_fcg/include/glm/detail/type_mat2x2.inl
+	"func_matrix.hpp"
+
+1529062498 /home/victoria/entrega_fcg/include/glm/mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1529062534 /home/victoria/entrega_fcg/include/glm/detail/type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1529062532 /home/victoria/entrega_fcg/include/glm/detail/type_mat2x3.inl
+
+1529062500 /home/victoria/entrega_fcg/include/glm/mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1529062550 /home/victoria/entrega_fcg/include/glm/detail/type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1529062534 /home/victoria/entrega_fcg/include/glm/detail/type_mat2x4.inl
+
+1529062496 /home/victoria/entrega_fcg/include/glm/mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1529062540 /home/victoria/entrega_fcg/include/glm/detail/type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1529062536 /home/victoria/entrega_fcg/include/glm/detail/type_mat3x2.inl
+
+1529062500 /home/victoria/entrega_fcg/include/glm/mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1529062534 /home/victoria/entrega_fcg/include/glm/detail/type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1529062536 /home/victoria/entrega_fcg/include/glm/detail/type_mat3x3.inl
+	"func_matrix.hpp"
+
+1529062494 /home/victoria/entrega_fcg/include/glm/mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1529062544 /home/victoria/entrega_fcg/include/glm/detail/type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1529062540 /home/victoria/entrega_fcg/include/glm/detail/type_mat3x4.inl
+
+1529062496 /home/victoria/entrega_fcg/include/glm/mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1529062538 /home/victoria/entrega_fcg/include/glm/detail/type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1529062548 /home/victoria/entrega_fcg/include/glm/detail/type_mat4x2.inl
+
+1529062498 /home/victoria/entrega_fcg/include/glm/mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1529062548 /home/victoria/entrega_fcg/include/glm/detail/type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1529062548 /home/victoria/entrega_fcg/include/glm/detail/type_mat4x3.inl
+
+1529062534 /home/victoria/entrega_fcg/include/glm/detail/func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1529062496 /home/victoria/entrega_fcg/include/glm/geometric.hpp
+	"detail/func_geometric.hpp"
+
+1529062544 /home/victoria/entrega_fcg/include/glm/detail/func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1529062534 /home/victoria/entrega_fcg/include/glm/detail/func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1529062532 /home/victoria/entrega_fcg/include/glm/detail/func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1529062532 /home/victoria/entrega_fcg/include/glm/detail/type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1529062536 /home/victoria/entrega_fcg/include/glm/detail/type_vec1.inl
+
+1529062540 /home/victoria/entrega_fcg/include/glm/detail/func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1529062552 /home/victoria/entrega_fcg/include/glm/detail/func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1529062548 /home/victoria/entrega_fcg/include/glm/detail/func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1529062538 /home/victoria/entrega_fcg/include/glm/detail/func_vector_relational_simd.inl
+
+1529062550 /home/victoria/entrega_fcg/include/glm/detail/_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1529062534 /home/victoria/entrega_fcg/include/glm/detail/func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1529062550 /home/victoria/entrega_fcg/include/glm/simd/exponential.h
+	"platform.h"
+
+1529062548 /home/victoria/entrega_fcg/include/glm/detail/func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1529062544 /home/victoria/entrega_fcg/include/glm/detail/_fixes.hpp
+	<cmath>
+
+1529062538 /home/victoria/entrega_fcg/include/glm/detail/func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1529062546 /home/victoria/entrega_fcg/include/glm/detail/func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1529062552 /home/victoria/entrega_fcg/include/glm/simd/common.h
+	"platform.h"
+
+1529062534 /home/victoria/entrega_fcg/include/glm/detail/func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1529062552 /home/victoria/entrega_fcg/include/glm/simd/geometric.h
+	"common.h"
+
+1529062536 /home/victoria/entrega_fcg/include/glm/detail/func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1529062554 /home/victoria/entrega_fcg/include/glm/simd/matrix.h
+	"geometric.h"
+
+1529062552 /home/victoria/entrega_fcg/include/glm/detail/type_mat4x4_simd.inl
+
+1529062554 /home/victoria/entrega_fcg/include/glm/gtc/type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1529062560 /home/victoria/entrega_fcg/include/glm/gtc/quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1529062564 /home/victoria/entrega_fcg/include/glm/gtc/constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1529062556 /home/victoria/entrega_fcg/include/glm/gtc/constants.inl
+	<limits>
+
+1529062558 /home/victoria/entrega_fcg/include/glm/gtc/quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1529062498 /home/victoria/entrega_fcg/include/glm/trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1529062546 /home/victoria/entrega_fcg/include/glm/detail/func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1529062534 /home/victoria/entrega_fcg/include/glm/detail/func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1529062538 /home/victoria/entrega_fcg/include/glm/detail/func_trigonometric_simd.inl
+
+1529062500 /home/victoria/entrega_fcg/include/glm/exponential.hpp
+	"detail/func_exponential.hpp"
+
+1529062554 /home/victoria/entrega_fcg/include/glm/gtc/quaternion_simd.inl
+
+1529062558 /home/victoria/entrega_fcg/include/glm/gtc/type_ptr.inl
+	<cstring>
+
+1529062492 /home/victoria/entrega_fcg/include/tiny_obj_loader.h
+	<map>
+	<string>
+	<vector>
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<utility>
+	<fstream>
+	<sstream>
+
+1529062492 /home/victoria/entrega_fcg/include/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1529062494 /home/victoria/entrega_fcg/include/utils.h
+	<cstdio>
+
+1529062492 /home/victoria/entrega_fcg/include/matrices.h
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1529062560 /home/victoria/entrega_fcg/include/glm/gtc/matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1529062562 /home/victoria/entrega_fcg/include/glm/gtc/matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1529062496 /home/victoria/entrega_fcg/include/glm/matrix.hpp
+	"detail/func_matrix.hpp"
+
+1529062490 source:/home/victoria/entrega_fcg/src/stb_image.cpp
+	"stb_image.h"
+
+1529253816 source:/home/victoria/entrega_fcg/src/textrendering.cpp
+	<string>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	"utils.h"
+	"dejavufont.h"
+
+1529062494 /home/victoria/entrega_fcg/include/dejavufont.h
+	<stddef.h>
+	<stdint.h>
+
+1529062490 source:/home/victoria/entrega_fcg/src/tiny_obj_loader.cpp
+	"tiny_obj_loader.h"
+
